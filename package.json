@@ -1,0 +1,29 @@
+{
+  "name": "solidity-layerzero",
+  "version": "1.0.0",
+  "description": "Contracts, tests and tasks to deploy with LayerZero",
+  "dependencies": {
+    "@layerzerolabs/solidity-examples": "^0.0.13",
+    "@openzeppelin/contracts": "^4.9.2"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^1.0.6",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.8",
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@typechain/hardhat": "^6.1.6",
+    "@types/chai": "^4.3.5",
+    "@types/mocha": "^10.0.1",
+    "@types/node": "^20.4.2",
+    "chai": "^4.3.7",
+    "dotenv": "^16.3.1",
+    "ethers": "^5.7.2",
+    "hardhat": "2.15.0",
+    "hardhat-deploy": "0.11.30",
+    "ts-node": "^10.9.1",
+    "typechain": "^8.2.0",
+    "typescript": "^5.1.6"
+  },
+  "scripts": {
+    "test": "hh test test/OFTs.ts"
+  }
+}
